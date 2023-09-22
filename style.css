@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("images/background-image.svg");
+  background-repeat: no-repeat;
+  background-color: rgb(224, 241, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.summary-card {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-right: 12rem;
+}
+.summary-card .summary-card-image {
+  width: 350px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.card-container {
+  background-color: white;
+  width: 350px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-description {
+  text-align: center;
+}
+.card-description,
+.annual-plan-title p,
+.cancel-order-link a {
+  opacity: 0.6;
+}
+.annual-plan {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 248, 253);
+  padding: 12px;
+  border-radius: 12px;
+  margin: 25px 0;
+}
+.icon-music img {
+  width: 30px;
+  margin-right: 17px;
+}
+.annual-plan-title {
+  line-height: 0.1;
+  margin-right: 5rem;
+}
+.annual-plan-title h4 {
+  margin-top: 5px;
+}
+.annual-plan-link a {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgba(24, 24, 190, 0.871);
+}
+.proceed-payment {
+  width: 100%;
+  background-color: rgba(17, 17, 181, 0.871);
+  height: 40px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.proceed-payment,
+.cancel-order-link {
+  display: flex;
+  justify-content: center;
+}
+.proceed-payment a {
+  text-decoration: none;
+  color: white;
+  line-height: 42px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.cancel-order-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
